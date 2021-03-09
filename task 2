@@ -1,0 +1,61 @@
+vtr1 = ([1,2,3,4,5])
+vtr2 = ([1,2,3,4,5])
+innerA = []
+
+vtr3 = ([2,4,6,8,10])
+vtr4 = ([10,8,6,4,2])
+innerB = []
+
+vtr5 = ([1,4,2,4,12])
+vtr6 = ([3,2,7,3,2])
+innerC = []
+
+vtr7 = ([2,4,3,9,3])
+vtr8 = ([2,7,7,10,5])
+innerD = []
+
+vtr9 = ([3,8,6,10,2])
+vtr10 = ([5,3,7,10,9])
+innerE = []
+
+
+
+print('Vector 1: ', vtr1)
+print('Vector 2: ', vtr2)
+for A in range(len(vtr1)):
+    sum1 = vtr1[A] * vtr2[A]
+    print(vtr1[A], '*', vtr2[A],'=',sum1)
+    innerA.append(sum1)
+print('Inner product:', innerA)
+
+print('\nVector 3: ', vtr3)
+print('Vector 4: ', vtr4)
+for B in range(len(vtr3)):
+    sum2 = vtr3[B] * vtr4[B]
+    print(vtr3[B], '*', vtr4[B],'=',sum2)
+    innerB.append(sum2)
+print('Inner product:', innerB)
+
+print('\nVector 5: ', vtr5)
+print('Vector 6: ', vtr6)
+for C in range(len(vtr5)):
+    sum3 = vtr5[C] * vtr6[C]
+    print(vtr5[C], '*', vtr6[C],'=',sum3)
+    innerC.append(sum3)
+print('Inner product:', innerC)
+
+print('\nVector 7: ', vtr7)
+print('Vector 8: ', vtr8)
+for D in range(len(vtr7)):
+    sum4 = vtr7[D] * vtr8[D]
+    print(vtr7[D], '*', vtr8[D],'=',sum4)
+    innerD.append(sum4)
+print('Inner product:', innerD)
+
+print('\nVector 9: ', vtr9)
+print('Vector 10: ', vtr10)
+for E in range(len(vtr9)):
+    sum5 = vtr9[E] * vtr10[E]
+    print(vtr9[E], '*', vtr10[E],'=',sum5)
+    innerE.append(sum5)
+print('Inner product:', innerE)
