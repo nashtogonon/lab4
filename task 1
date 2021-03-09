@@ -1,0 +1,74 @@
+vtrA = [(1,2,3,4,5)]
+vtr1 = []
+
+vtrB = [(2,4,6,8,10)]
+vtr2 = []
+
+vtrC = [(3,6,9,12,15)]
+vtr3 = []
+
+vtrD = [(4,8,12,16,20)]
+vtr4 = []
+
+vtrE = [(5,10,15,20,25)]
+vtr5 = []
+
+vtrF = [(6,12,18,24,32)]
+vtr6 = []
+
+for values in vtrA:
+  for value in values: 
+    sqr1 = value**2
+    vtr1.append(sqr1)
+
+for values in vtrB:
+  for value in values: 
+    sqr2 = value**2
+    vtr2.append(sqr2)
+
+for values in vtrC:
+  for value in values: 
+    sqr3 = value**2
+    vtr3.append(sqr3)
+
+for values in vtrD:
+  for value in values: 
+    sqr4 = value**2
+    vtr4.append(sqr4)
+
+for values in vtrE:
+  for value in values: 
+    sqr5 = value**2
+    vtr5.append(sqr5)
+
+for values in vtrF:
+  for value in values: 
+    sqr6 = value**2
+    vtr6.append(sqr6)
+
+
+
+print('Vector values: ', vtrA)
+print('Square of the numbers inside the vector: ', vtr1)
+print('Square root: ', sum(vtr1)**(.5))
+
+print('\nVector values: ', vtrB)
+print('Square of the numbers inside the vector: ', vtr2)
+print('Square root: ', sum(vtr2)**(.5))
+
+print('\nVector values: ', vtrC)
+print('Square of the numbers inside the vector: ', vtr3)
+print('Square root: ', sum(vtr3)**(.5))
+
+print('\nVector values: ', vtrD)
+print('Square of the numbers inside the vector: ', vtr4)
+print('Square root: ', sum(vtr4)**(.5))
+
+print('\nVector values: ', vtrE)
+print('Square of the numbers inside the vector: ', vtr5)
+print('Square root: ', sum(vtr5)**(.5))
+
+print('\nVector values: ', vtrF)
+print('Square of the numbers inside the vector: ', vtr6)
+print('Square root: ', sum(vtr6)**(.5))
+
